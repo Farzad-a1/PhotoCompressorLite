@@ -1,0 +1,20 @@
+Final verification — October 30, 2026
+
+assembleDebug: PASS
+bundleRelease: PASS (unsigned release AAB)
+testDebugUnitTest: PASS, 5 tests
+lintDebug: PASS, 0 errors / 14 warnings (API/version advice, KTX suggestions and resource/configuration advice)
+API 37 emulator, final APK instrumented tests: PASS, 8 tests, 42.518 seconds
+Selection and results screen captures: visually inspected
+Reference screenshot: not supplied
+Android 8–16 and physical devices: not verified
+
+Instrumented cases:
+- selectedPhotoThroughCompressionAndSave
+- invalidInputReportsFailure
+- transparencyRequiresConsentAndWebpKeepsAlpha
+- cancelledCompressionLeavesNoPartialOutput
+- orientationIsAppliedAndMetadataRemoved
+- compressionProducesDecodableOutputAndSecureUri
+- homeSelectEmptyStateAndSettings
+- impossibleTargetIsReportedHonestly
